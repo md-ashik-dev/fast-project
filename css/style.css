@@ -1,0 +1,794 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* common css end  */
+
+/* Navber part start  */
+
+/* Banner part start  */
+body{
+    background: url(../images/bacground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.nav-item a{
+    padding: 0px 15px ;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+.nav-item a i{
+    padding: 0px 10px;
+}
+.nav-btn a{
+    padding: 15px 35px;
+    background: #9064F5;
+    border-radius: 15px;
+    color: #fff;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.nav-btn:hover a{
+    padding: 18px 39px;
+    transition: .3s;
+}
+/* Navber part end  */
+
+.banner-left{
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+.banner-h1 h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    line-height: 60px;
+    text-transform:capitalize;
+}
+.banner_p p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 30px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.banner_p::before{
+    content: "";
+    height: 70px;
+    width: 6px;
+    background: #FEC35F;
+    position: absolute;
+}
+.banner-input{
+    padding-top: 55px;
+}
+.banner-input input{
+    height: 60px;
+    width: 500px;
+    background: rgba(132, 84, 245, 0.2);
+    border-radius: 15px;
+    border:none;
+}
+.input input::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    font-family: "Nunito", sans-serif;
+    padding: 0px 15px;
+}
+.input a {
+    padding: 15px 30px;
+    background: #9064F5;
+    color: #fff;
+    border-radius: 15px;
+    margin-left: -125px;
+}
+.input:hover a{
+    padding: 18px 33px;
+    transition: .3s;
+}
+/* Navber part end  */
+
+/* logo part start  */
+
+.logo-part{
+    padding:80px;
+}
+   /* logo part end  */
+
+
+/* prat four start  */
+.prat_four_left{
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+.prat_four_left h3 {
+    font-weight: 700;
+    font-size: 56px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    line-height: 75px;
+    text-transform: capitalize;
+}
+.prat_four_right{
+    margin-top:65px;
+    margin-bottom: 30px;
+}
+.prat_four_right p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 40px;
+    margin-left:30px;
+}
+.prat_four_right::before{
+    content: "";
+    height: 120px;
+    width: 6px;
+    background: #FEC35F;
+    position: absolute;
+}
+
+/* prat four end  */
+/*  part five start  */
+.col-lg-4{
+    padding: 15px 15px;
+}
+.five_content{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 14px;
+}
+.icon_h3_flex{
+    display: flex;
+}
+.icon{
+    padding: 17px 20px ;
+    background: rgba(254, 196, 95, 0.15);
+    border-radius: 15px;
+    color: #FEC35F;
+}
+.icon{
+    font-size: 20px;
+}
+.h3 h3{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    text-transform:capitalize;
+}
+.five{
+    padding-bottom: 100px;
+}
+.five_content_prg p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 29px;
+    margin-top: 15px;
+}
+.five_content a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+}
+.icon_two{
+    background: rgba(252, 252, 254, 0.15);
+}
+.icon_three{
+    background: rgba(117, 186, 82, 0.15);
+}
+.icon_four{
+    background: rgba(96, 120, 255, 0.15);
+}
+.icon_five{
+    background: rgba(242, 120, 96, 0.15);
+}
+.icon_six{
+    background: rgba(13, 137, 231, 0.15);
+}
+.five_content:hover{
+    background: #8454F5;
+    transition: .7s;
+}
+.five_content:hover .icon{
+    background: rgba(252, 252, 254, 0.15);
+}
+.five_content:hover .icon i{
+    color: #fff;
+}
+.five_content:hover .h3 h3{
+    color: #fff;
+}
+.five_content:hover .five_content_prg p{
+    color: #FCFCFE;
+}
+.five_content:hover a{
+    color: #FCFCFE;
+}
+
+/*  part five end  */
+
+
+/*  part six start  */
+.part_six_py{
+    padding: 70px 0px;
+}
+.part_six_img{
+    margin-left: -250px;
+}
+.part_six_right{
+    padding-top: 130px;
+}
+.part_six_h3 h3 {
+    font-weight: 700;
+    font-size: 56px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    line-height: 75px;
+}
+.part_six_p p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 30px;
+    padding-top: 50px;
+    padding-right: 79px;
+}
+.part_six_right a{
+    padding: 20px 40px;
+    background: #8454F5;
+    color: #fff;
+    border-radius: 15px;
+}
+.six_btn{
+    padding-top: 50px;
+}
+.six_btn:hover a{
+    padding: 25px 45px;
+    transition: .3s;
+}
+/*  part six end  */
+
+/* part seven start  */
+#part_seven{
+    padding: 80px 0px;
+}
+.seven_main{
+    height: 80px;
+    background: rgba(255, 255, 255, 0.31);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    padding: 0px 40px;
+}
+.seven_main_one:hover a{
+    padding: 15px 30px;
+    background: #9064F5;
+    border-radius: 18px;
+    transition: .7s;
+    color: #fff;
+}
+.seven_main_two:hover a{
+    padding: 15px 30px;
+    background: #9064F5;
+    border-radius: 18px;
+    transition: .7s;
+    color: #fff;
+}
+.seven_main_three:hover a{
+    padding: 15px 30px;
+    background: #9064F5;
+    border-radius: 18px;
+    transition: .7s;
+    color: #fff;
+}
+.seven_main_four:hover a{
+    padding: 15px 30px;
+    background: #9064F5;
+    border-radius: 18px;
+    transition: .7s;
+    color: #fff;
+}
+.seven_py{
+    padding-top: 100px;
+}
+.seven_h3 h3 {
+    font-weight: 700;
+    font-size: 56px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+.seven_prg p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    padding-top: 50px;
+    line-height: 30px;
+}
+.seven_btn{
+    padding-top: 50px;
+}
+.seven_btn a{
+    padding: 15px 30px;
+    background: #9064F5;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+}
+.seven_btn:hover a{
+    padding: 18px 33px;
+    transition: .3s;
+}
+/* part seven end  */
+
+/* part eight start  */
+
+.part_eight{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.eight_h3 h3 {
+    font-weight: 700;
+    font-size: 56px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    padding-right: 631px;
+    text-align: center;
+    line-height: 80px;
+}
+.gggg{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.gggg h4{
+    font-weight: 700;
+    font-size: 28px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    padding: 0px 20px;
+    
+}
+.btn_main{
+    height: 20px;
+    width: 40px;
+    background: #8454F5;
+    border-radius: 30px;
+    border: 1px solid #8454F5;
+}
+.btn_hov{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+.btn_main:hover{
+    background: #fff;
+}
+.btn_main:hover .btn_hov{
+    background: #000;
+    margin-left: 20px;
+    transition: .6s;
+}
+.eight_py{
+    padding: 100px 15px 80px;
+}
+.eight_content{
+    position: relative;
+    padding: 40px 25px 60px;
+    background: #fbfbfb;
+    border-radius: 30px;
+}
+.eight_servise{
+    padding: 20px 20px 0px;
+}
+.sr_one{
+    display: flex;
+    margin-top: 20px;
+}
+.sr_one i {
+    margin-right: 15px;
+    font-size: 18px;
+}
+.flex_ec{
+    display: flex;
+    justify-content: space-between;
+}
+.flex_ec a{
+    margin-top: 15px;
+}
+.eight_content_btn{
+    padding-top: 50px;
+}
+.eight_content_btn a{
+    padding: 15px 25px;
+    background: rgba(144, 100, 245, 0.252);
+    border-radius: 20px ;
+}
+.eight_content:hover{
+    bottom: 90px;
+    background: #181059;
+    color: #fff;
+    transition: .6s;
+}
+.eight_content:hover a{
+    color: #fff;
+    transition: .6s;
+}
+.eight_content:hover .eight_content_btn a{
+    background: #8454F5;
+    color: #fff;
+    transition:.6s;
+}
+/* part eight end  */
+
+/* part nine start  */
+.part_nine{
+    padding: 70px 0px;
+}
+.part_nine_alain{
+    align-items: center;
+}
+.nine_one h3{
+    font-weight: 600;
+    font-size: 64px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+}
+.nine_two h3{
+    font-weight: 600;
+    font-size: 64px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+}
+.nine_three h3{
+    font-weight: 600;
+    font-size: 64px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+}
+.nine_one p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+.nine_two p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+.nine_three p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    padding-top: 25px;
+    padding-right: 32px;
+}
+.part_nine_alain .col-lg-2::after{
+    content: "";
+    height: 120px;
+    width: 6px;
+    background: #FEC35F;
+    position: absolute;
+}
+.nine_one{
+    position: relative;
+}
+.part_nine_alain .nine_one::after{
+    left: 180px;
+    top: 0px;
+}
+.nine_two{
+    position: relative;
+}
+.part_nine_alain .nine_two::after{
+    left: 260px;
+    top: 0px;
+}
+.part_nine_alain .nine_three::after{
+    visibility: hidden;
+    opacity: 0;
+}
+/* part nine end  */
+
+
+/* part ten start  */
+.part_ten_one{
+    padding-top: 80px;
+}
+.ten_h3 h3{
+    font-weight: 700;
+    font-size: 50px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    line-height: 60px;
+}
+.ten_top{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.ten_mdl{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.ten_p p{
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 30px;
+}
+.ten_mdl_h3{
+    padding-top: 40px;
+}
+.ten_mdl_icon{
+    display: flex;
+}
+.facebook_icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #8454F5;
+    position: relative;
+}
+.facebook_icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #8454F5;
+}
+.youtube_icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #8454F5;
+    position: relative;
+}
+.youtube_icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #8454F5;
+}
+.twitter_icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #8454F5;
+    position: relative;
+}
+.twitter_icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #8454F5;
+}
+.ten_mdl_icon {
+    justify-content: space-between;
+    padding-right: 225px;
+    padding-top: 30px;
+}
+.facebook_icon:hover{
+    background: #8454F5;
+    transition: .3s;
+}
+.youtube_icon:hover{
+    background: #8454F5;
+    transition: .3s;
+}
+.twitter_icon:hover{
+    background: #8454F5;
+    transition: .3s;
+}
+.facebook_icon:hover i{
+    color: #ffffff;
+    transition: .3s;
+}
+.youtube_icon:hover i{
+    color: #ffffff;
+    transition: .3s;
+}
+.twitter_icon:hover i{
+    color: #ffffff;
+    transition: .3s;
+}
+.ten_arow_flex{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 220px;
+    padding-top: 40px;
+}
+.ten_arow_one i{
+    padding: 15px 20px;
+    background: #F3EEFE;
+    border-radius: 14px;
+}
+.ten_arow_two i{
+    padding: 15px 20px;
+    background: #F3EEFE;
+    border-radius: 14px;
+}
+.ten_arow_one:hover i{
+    background: #8454F5;
+    color: #fff;
+    transition: .5s;
+}
+.ten_arow_two:hover i{
+    background: #8454F5;
+    color: #fff;
+    transition: .5s;
+}
+/* part ten end  */
+
+/* part eleven start  */
+.eleven_py{
+    padding: 80px 0px 30px;
+}
+.eleven_h3 h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.eleven_p p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
+.eleven_inoput input{
+    height: 50px;
+    width: 400px;
+    background: #F3EEFE;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 12px;
+    border: none;
+}
+.eleven_inoput ::placeholder{
+    padding: 0px 15px;
+}
+.eleven_btn{
+    position: relative;
+}
+.eleven_btn a{
+    padding: 12px 27px;
+    background: #8454F5;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+    position: absolute;
+    top: -8px;
+}
+.hhhhh{
+    padding-bottom: 40px;
+}
+.eleven_btn:hover a{
+    padding: 15px 30px;
+    transition: .4s;
+}
+/* part eleven end  */
+
+/* last  part start  */
+.last{
+    padding-top: 60px;
+}
+.last_one_p p{
+    padding-top: 45px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    line-height: 25px;
+}
+.last_ad h6{
+    padding-top: 200px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+}
+.last_two_h3 h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    padding-right: 90px;
+}
+.last_two_list ul li {
+    padding-top: 20px;
+}
+.last_two_list{
+    padding-top: 30px;
+}
+.last_two_list ul li a{
+    color: #000;  
+}
+.list_three_h3 h3{
+    padding-top: 20px;
+}
+.list_three_list h3{
+    padding-top: 20px;
+}
+.list_three_list{
+    padding-top: 30px;
+}
+.list_three_list ul li{
+    padding-top: 20px;
+}
+.list_three_list ul li a{
+    color: #000;
+}
+.last_iiii h3{
+    padding-top: 20px;
+}
+.pppp{
+    padding-top: 40px;
+}
+.pppp ul li{
+    padding-top: 20px;
+}
+.pppp ul li a{
+    color: #000;
+    
+}
+.yyyy {
+    padding-top: 185px;
+}
+/* last part end  */
+/* part seven start  */
+/* part seven end  */
